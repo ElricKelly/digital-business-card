@@ -1,0 +1,91 @@
+/* creating a box for the header and styling the text inside */
+header{
+  border: 2px solid #3C3C3E;
+  color: #EEDDD3;
+  background-color: #784F2B;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+/* rounding the border of the profile image */
+img{
+  border: 2px solid #3C3C3E;
+  border-radius: 20px;
+}
+
+/* setting the background image */
+body{
+  background-image: url("images/bluewall.png");
+}
+
+/* styling the bulk of the text in the main container */
+main p{
+  color: #1F1F1F;
+  font-family: Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* styling specific headers near the end of the main container */
+main h4{
+  height: 50px;
+  padding: 5px;
+  margin: 5px;
+  color: #E33B57;
+  font-family: Garamond, serif;
+  font-size: 40px;
+}
+
+/* styling the unordered list */
+main ul{
+ color: #7BBAF4;
+ font-family: Verdana, sans-serif;
+ font-size: 20px;
+ font-style: italic;
+ background-color: #784F2B;
+ border-radius: 200px;
+  padding: 50px;
+  margin: 30px 190px;
+}
+
+/* styling the horizontal rules */
+.dotted{
+  border: 3px dotted #784F2B;
+}
+
+/* creating a few classes to assign to specifc headers */
+.header-text {
+  color: #3C3C3E;
+  font-family: Garamond, serif;
+  font-size: 40px;
+  height: 50px;
+}
+.dramatic-header-text{
+  color: #E33B57;
+  font-family: Impact, fantasy;
+  font-size: 69px;
+  text-decoration: underline;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* creating the box for the footer and coloring the text inside */
+footer{
+  border: 2px solid #3C3C3E;
+  color: #EEDDD3;
+  background-color: #784F2B;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+/* aligning all the text and lists */
+header, main, footer, .center{
+  text-align: center;
+  list-style-position: inside
+}
+
+/* styles for the links */
+a:link {color: #EEDDD3;}
+a:visited {color: #7BBAF4;}
+a:hover {color: #23022E;}
+a:active {color: #3C3C3E;}
